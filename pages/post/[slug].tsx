@@ -63,7 +63,7 @@ function Post({ post }: Props){
 								<h1 className="text-xl font-bold my-5"/>
 							),
 							li: ({children}: any) => (
-								<li className="ml-4 list-disc" {...props}>{children}</li>
+								<li className="ml-4 list-disc">{children}</li>
 							),
 							link: ({href, children}: any) => (
 								<a href={href} className="text-blue-500 hover:underline">{children}</a>
